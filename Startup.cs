@@ -42,6 +42,8 @@ namespace dotnetcore_angular4
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
